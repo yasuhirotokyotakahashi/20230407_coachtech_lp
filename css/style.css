@@ -1,0 +1,387 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;   
+}
+
+.header__logo img{
+    width: 150px;
+}
+
+.header__nav__list{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.header__nav__list li{
+    margin: 0 10px;
+}
+
+.firstview__eyecatch{
+    position: relative;
+}
+
+.relative__img{
+    margin:0 0 0 auto;
+    display: block;
+    width: 55%;
+}
+
+.firstview__content-eyecatcdiv{
+    position: absolute;
+    top:20%;
+    left: 30%;
+    font-size: 50px;
+    line-height: 70px;
+    color: #ab0f50;
+    font-family: 'Indie Flower', cursive;
+}
+
+.change__clr{
+    color: #049fb3;
+}
+
+.firstview__content-sub-copy {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 20px;
+    color: #ab0f50;
+    font-weight: bold;
+}
+
+.firstview__content-txt{
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    font-size: 14px;
+}
+
+.small-container{
+ width: 600px;
+ margin: 50px auto;
+}
+
+.common__sub-ttl{
+    color: #ab0f50;
+    line-height: 20px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.common__ttl {
+    font-style: bold;
+    line-height: 50px;
+}
+
+.news__list{
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+    margin: 20px auto;
+}
+
+.news__list li{
+    list-style: none;
+    border-bottom: 1px solid #c0c0c0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news__list-link{
+    display: flex;
+    padding: 10px;
+}
+
+.news__list-cat{
+    background-color: #ab0f50;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    margin: auto;
+}
+
+.container{
+    background-color:#dddddd;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.common__sub-ttl2{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.common__ttl2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.flex__item{
+    width: 60%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.about__item-txt{
+    width: 50%;
+    line-height: 20px;
+}
+
+.about__item-img{
+    width: 50%;
+    text-align: center;
+}
+
+.about__item-img img{
+    width: 50%;
+}
+
+.service{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.flex__item2{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+}
+
+.service-wrap__item--first{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    text-align: center;
+    padding: 100px 100px;
+    background-color: #ab0f50;
+}
+
+.service-wrap__item--second{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: #c76781;
+    display: flex;
+}
+
+.service-wrap__item--third{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #e5b7be;
+    display: flex;
+}
+
+.service-wrap__item img{
+    width: 100px;
+    display: inline-block;
+}
+
+.service-wrap__item-content{
+    margin: auto auto;
+}
+
+.blog{
+    background-color: #dddddd;
+}
+
+.container2{
+    width: 800px;
+    margin: 30px auto;
+    background-color: #dddddd;
+}
+
+.flex__item3 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.blog-wrap__item {
+    margin: 10px 20px;
+    width: 25%;
+    position: relative;
+    flex: 1;
+}
+
+.card__img img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-wrap__item-content {
+    padding: 15px 25px;
+    background-color: #ffff;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-wrap__item-content-ttl {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.blog-wrap__item-cat {
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    color: #fff;
+    background-color: #ab0f50;
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px 0 0 0;
+}
+
+.flex__item4 {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-wrap__item-content-tag {
+    display: inline;
+    color: #008888;
+}
+
+.blog__link {
+        width: 200px;
+        padding: 10px 0;
+        color: #ab0f50;
+        border-radius: 30px;
+        background-color: #fff;
+        text-align: center;
+        border: 2px solid #ab0f50;
+        margin: 50px auto 0;
+        display: block;
+}
+
+.company{
+    padding-top: 30px;
+    width: 800px;
+    margin: 10px auto 50px;
+}
+
+.company-table{
+    width: 100%;
+    margin: 20px auto;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+table th {
+    text-align: left;
+    font-weight: bold;
+    background-color: #dedede;
+}
+
+.flex__item6 {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+
+.recruit__item:first-child {
+    background: url(../img/recruit.png);
+    width: 50%;
+    line-height: 20vh;
+    text-align: center;
+    display: block;
+    
+    color: #fff;
+    
+    
+}
+
+.recruit__item:last-child{
+    background: url(../img/interview.png);
+    width: 50%;
+    line-height: 20vh;
+    text-align: center;
+    display: block;
+    
+    color: #fff;
+
+}
+
+.contact{
+    text-align: center;
+    
+}
+
+.contact__ttl{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 80px;
+   
+}
+
+.contact__ttl::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 20px;
+    margin: auto;
+    background-color: #000;
+}
+
+.contact__btn {
+
+    width: 300px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #ff5800, #8b00be);
+    text-align: center;
+    box-shadow: 0 5px 0 rgba(255, 0, 0, 0.2);
+    margin: 50px auto 0;
+    display: block;
+    position: relative;
+
+}
+
+.contact__btn::before{
+    content: "";
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        background: url(../img/mailicon.svg) no-repeat;
+        background-size: cover;
+        width: 30px;
+        height: 30px;
+        transform: translateY(-50%);
+
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+
+
