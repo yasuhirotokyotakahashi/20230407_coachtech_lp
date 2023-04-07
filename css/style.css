@@ -26,6 +26,7 @@ a {
 
 .firstview__eyecatch{
     position: relative;
+    
 }
 
 .relative__img{
@@ -37,9 +38,10 @@ a {
 .firstview__content-eyecatcdiv{
     position: absolute;
     top:20%;
-    left: 30%;
+    left: 35%;
     font-size: 50px;
     line-height: 70px;
+    font-weight: bold;
     color: #ab0f50;
     font-family: 'Indie Flower', cursive;
 }
@@ -50,8 +52,8 @@ a {
 
 .firstview__content-sub-copy {
     position: absolute;
-    top: 50%;
-    left: 30%;
+    top: 40%;
+    left: 35%;
     font-size: 20px;
     color: #ab0f50;
     font-weight: bold;
@@ -59,8 +61,9 @@ a {
 
 .firstview__content-txt{
     position: absolute;
-    top: 55%;
-    left: 30%;
+    top: 43%;
+    left: 35%;
+    line-height: 20px;
     font-size: 14px;
 }
 
